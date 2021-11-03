@@ -1,5 +1,5 @@
-body{
-  font-family: 'Dancing Script', cursive; sans-serif;
+body {
+  font-family: "Dancing Script", cursive, sans-serif;
 }
 
 p {
@@ -9,19 +9,23 @@ p {
   border-right-width: 3px; /* Толщина линии */
 }
 
-#blue-frame{
+#blue-frame {
   border: 3px solid blue; /* Толщина рамки в пикселах,
                          тип границы (в данном случае сплошная линия) и
                          цвет линии */
-padding: 10px; /* Расстояние от текста до рамки */
-font-size: 35px;
+  padding: 10px; /* Расстояние от текста до рамки */
+  font-size: 35px;
 }
 
-.white-text{
+.white-text {
   color: white;
   background-color: black;
   font-size: 27px;
   text-decoration: underline;
   font-style: italic;
   border-right-style: none;
+}
+
+.color-red {
+  color: red;
 }
