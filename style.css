@@ -1,0 +1,27 @@
+body{
+  font-family: 'Dancing Script', cursive; sans-serif;
+}
+
+p {
+  font-size: 25px;
+  border-right-color: red; /* Цвет линии справа */
+  border-right-style: dashed; /* Стиль линии */
+  border-right-width: 3px; /* Толщина линии */
+}
+
+#blue-frame{
+  border: 3px solid blue; /* Толщина рамки в пикселах,
+                         тип границы (в данном случае сплошная линия) и
+                         цвет линии */
+padding: 10px; /* Расстояние от текста до рамки */
+font-size: 35px;
+}
+
+.white-text{
+  color: white;
+  background-color: black;
+  font-size: 27px;
+  text-decoration: underline;
+  font-style: italic;
+  border-right-style: none;
+}
