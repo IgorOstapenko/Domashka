@@ -4,7 +4,8 @@ body {
 
 p {
   font-size: 25px;
-  border-right-color: red; /* Цвет линии справа */
+  border-right-color: red;
+  padding: 10px; /* Цвет линии справа */
   border-right-style: dashed; /* Стиль линии */
   border-right-width: 3px; /* Толщина линии */
 }
